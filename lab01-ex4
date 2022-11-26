@@ -1,0 +1,12 @@
+print("Enter Limit:")
+Limit = int(input())
+d = 0.0
+i = 1
+print()
+
+for Limit in range(1,Limit+1):    
+        d = d+1/Limit;
+        
+        print("limit  =",Limit,"Value = ",d)
+        
+print()
